@@ -1,0 +1,182 @@
+@charset "UTF-8";
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, menu, figure, figcaption，section {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑";
+  width: 100%; }
+
+input, a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+hover {
+  cursor: pointer; }
+
+#header, #nav, #menu, #flagship, #oversea, #hotitems, #shopping, #promotion, .foot-top, .foot-center, .bottom {
+  width: 1212px;
+  margin: 0 auto; }
+
+#nav {
+  height: 110px;
+  display: flex;
+  justify-content: space-around; }
+  #nav .navyj {
+    width: 140px;
+    height: 80px;
+    margin-top: 10px; }
+  #nav .search {
+    width: 374px;
+    height: 68px;
+    margin-top: 35px; }
+    #nav .search form {
+      border: 2px solid #c69c6d;
+      background: #c69c6d; }
+      #nav .search form .ssinput {
+        outline: none;
+        width: 263px;
+        height: 33px;
+        line-height: 33px;
+        border: 0;
+        padding-left: 3px;
+        background: #ffffff; }
+      #nav .search form #btn {
+        width: 85px;
+        background: 0;
+        border: 0;
+        height: 35px;
+        color: #fff;
+        font-size: 14px; }
+    #nav .search .sclist {
+      font-size: 12px; }
+      #nav .search .sclist li {
+        float: left;
+        padding-right: 25px;
+        line-height: 32px; }
+        #nav .search .sclist li a {
+          color: #999999; }
+        #nav .search .sclist li a:hover {
+          color: #D00000; }
+  #nav .searchrg {
+    width: 300px;
+    height: 34px;
+    margin-top: 35px;
+    font-size: 14px;
+    position: relative; }
+    #nav .searchrg img {
+      float: left;
+      border: none;
+      margin-right: 5px; }
+    #nav .searchrg .cont {
+      float: right;
+      border: 1px solid #cccccc;
+      width: 93px;
+      height: 33px;
+      line-height: 33px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
+      #nav .searchrg .cont img {
+        margin: 5px 12px 0 10px; }
+      #nav .searchrg .cont #coutNum {
+        color: #d00000; }
+      #nav .searchrg .cont span {
+        background: url(../images/brandstore_share.png) no-repeat -458px -417px;
+        width: 8px;
+        height: 11px;
+        display: inline-block;
+        margin-left: 10px; }
+      #nav .searchrg .cont .contxx {
+        position: absolute;
+        top: 34px;
+        right: 0;
+        width: 280px;
+        height: 80px;
+        background: #fff;
+        text-align: center;
+        border: 1px solid #cccccc;
+        display: none; }
+        #nav .searchrg .cont .contxx p {
+          line-height: 26px;
+          margin-top: 10px; }
+      #nav .searchrg .cont:hover {
+        height: 35px;
+        border-bottom: 0;
+        background: #fff; }
+        #nav .searchrg .cont:hover .contxx {
+          display: block; }
+
+#footer {
+  height: 613px;
+  background: url(../images/footer_message_bg.jpg) no-repeat;
+  border-top: 1px solid #c9c9c9;
+  overflow: hidden; }
+  #footer .foot-top {
+    height: 117px;
+    border-bottom: 1px solid #c9c9c9;
+    display: flex;
+    justify-content: space-around; }
+    #footer .foot-top li {
+      padding-top: 26px;
+      height: 67px; }
+      #footer .foot-top li img {
+        float: left; }
+      #footer .foot-top li .fptxt {
+        float: right;
+        font-size: 12px;
+        line-height: 24px; }
+        #footer .foot-top li .fptxt strong {
+          margin-top: 10px;
+          display: block; }
+  #footer .foot-center {
+    height: 282px;
+    display: flex;
+    justify-content: space-around; }
+    #footer .foot-center li h3 {
+      font-size: 14px;
+      font-weight: 900;
+      padding: 26px 0; }
+    #footer .foot-center li span {
+      color: #333333;
+      font-size: 12px;
+      line-height: 24px;
+      display: block; }
+  #footer .bottom {
+    font-size: 12px;
+    color: #fff; }
+    #footer .bottom a {
+      color: #fff; }
+    #footer .bottom .bot_top {
+      padding: 26px 0 22px 426px; }
+      #footer .bottom .bot_top li {
+        height: 12px;
+        float: left;
+        border-right: 1px solid #fff;
+        line-height: 12px;
+        padding: 0 10px; }
+    #footer .bottom .bot_cen {
+      padding: 10px 0 22px 205px; }
+      #footer .bottom .bot_cen li {
+        height: 12px;
+        float: left;
+        border-right: 1px solid #fff;
+        line-height: 12px;
+        padding: 0 10px; }
+    #footer .bottom p {
+      margin-left: 210px; }
+    #footer .bottom .botimg {
+      padding: 25px 0 33px 435px; }

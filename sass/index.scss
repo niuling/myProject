@@ -1,0 +1,734 @@
+#header,#nav,#menu,#flagship,#oversea,#hotitems,#shopping,#promotion{width: 1212px;margin: 0 auto;}
+
+//top============================
+#top{height: 80px;
+    background: url(../images/152384393514.jpg) no-repeat center/cover;
+}
+
+//header==========================
+
+#headwrap{background: #f2f2f2;
+    #header {
+      height: 30px;
+      background: #f2f2f2; 
+      position: relative;
+        .headlf{
+           height: 30px;
+           text-align: center;
+           font-size:12px;
+           color: #666666;
+           float: left;
+           li{float: left;
+                 i{position: absolute;
+                    height: 12px;
+                    left: 110px;
+                    top: 9px;
+                    border-left: 1px solid #dfdfdf;
+                    font-style: normal;
+                    }
+           }
+              
+             li:nth-of-type(1){
+                img{margin-top: 7px;}
+                    
+                a{margin-left: 5px;
+                    margin-right: 15px;
+                    line-height: 30px;
+                   &:hover{color: #b28247;}
+                }
+                
+            }
+           li:nth-of-type(2){
+               span{display: inline-block;
+                 width: 25px;
+                 height: 30px; 
+                 float: left;
+                 background: url(../images/brandstore_share.png) no-repeat -348px -338px;
+                }
+                b{font-weight: 100;
+                 line-height: 30px;
+                 float: left;
+                }
+           }
+        }
+        // header右半
+        
+        .headrg{
+            float: right;
+            color: #666666;
+            position: relative;
+            li{
+                float: left;
+                font-size: 12px;
+                line-height: 30px;
+             
+            }
+            li:nth-of-type(1){
+                span{padding-right: 18px;
+                    border-right: 1px solid #dfdfdf; 
+                   &:hover{color: #d00000;}
+                }
+                
+            }
+            
+            li:nth-of-type(2){
+                img{ float: left;
+                margin: 0 5px 0 17px;
+                }
+                a{float: right;
+                 margin-right: 18px;
+                 &:hover{color: #b28247;}
+                }
+                i{position: absolute;
+                    height: 14px;
+                    left: 130px;
+                    top: 9px;
+                    border-left: 1px solid #dfdfdf;
+                    font-style: normal;
+                 }
+            }
+            
+            li:nth-of-type(3){
+                position: relative;
+                width: 132px;
+                  &:hover{
+                      background: #fff;
+                      border: 1px solid #CCCCCC;
+                      border-bottom: 0;
+                      z-index: 5;
+                      cursor:pointer;
+                      a{color: #b28247;}
+                      span{background: url(../images/brandstore_share.png) no-repeat -352px -477px;}
+                     .wdlist{ background: #fff;
+                         display: block;}
+                  } 
+                span{
+                 display: inline-block;
+                 width: 10px;
+                 height: 6px; 
+                 float: right;
+                 background: url(../images/brandstore_share.png) no-repeat -236px -303px; 
+                 margin: 13px 20px 0 10px;
+                    
+                }
+                a{float: left;
+                   margin-left: 20px;
+                }
+                i{position: absolute;
+                    height: 14px;
+                    left: 130px;
+                    top: 9px;
+                    border-left: 1px solid #dfdfdf;
+                    font-style: normal;
+                }  
+               
+                .wdlist{
+                    position: absolute;
+                    top:30px;
+                    width: 131px;
+                    height: 145px;
+                    border: 1px solid #CCCCCC;
+                    border-top:0;
+                    text-align: center;
+                    display: none;
+                    p:hover{color: #d00000;}
+                }
+            }
+           
+           
+           li:nth-of-type(4) {
+               padding: 0 20px;
+                a:hover{color:#b28247;}
+                i{position: absolute;
+                    height: 14px;
+                    left: 350px;
+                    top: 9px;
+                    border-left: 1px solid #dfdfdf;
+                    font-style: normal;
+                 }  
+           }
+           
+           li:nth-of-type(5){
+               position: relative;
+               a{float: left;
+               margin-left: 20px;}
+               span{ display: inline-block;
+                   float: right;
+                  margin:9px 15px 0 5px;
+                 
+                  width: 33px;
+                  height: 15px;
+                  background: url(../images/brandstore_share.png) no-repeat -288px -378px; 
+                  
+                }
+               &:hover{
+                      a{color: #d00000;}
+                      span{background: url(../images/brandstore_share.png) no-repeat -288px -413px; }
+                      .ewm{display: block;}
+                  } 
+                .ewm{
+                    position: absolute;
+                    width: 119px;
+                    clear: both;
+                    background: #FFFFFF;
+                    border: 1px solid #CCCCCC;
+                    text-align: center;
+                    top:30px;
+                    display: none;
+                    z-index: 9;
+                    box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    img{width: 110px;
+                        margin-top:5px;
+                    }
+                    h3{
+                        em{
+                            color: #d00000;
+                            font-size: 18px;
+                            
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        
+    }
+}
+
+//menu=======================
+#menuwrap{
+    background: url(../images/menubg.jpg);
+    #menu{height: 38px;
+//   background: pink;
+    line-height: 38px;
+    font-size: 12px;
+    }
+    .menumian{
+        float: left;
+        position: relative;
+        li{float: left;
+            padding: 0 27px;
+            a{font-size: 12px;
+               color: #c89c5b;
+            }
+        }
+        li:nth-of-type(1){
+            background: #cf0101;
+            width: 76px;
+            text-align: center;
+            a{color: #fff;
+                font-weight: 900;
+            }
+        }
+        li:nth-of-type(11)>a>i{
+            position: absolute;
+            width: 23px;
+            height: 26px;
+            top:6px;
+            right: 55px;
+            background: url(../images/share02.png) no-repeat -58px -176px;  
+        }
+        li:hover a{color: #fff;
+            i{background: url(../images/share02.png) no-repeat -365px -259px;}
+        }
+    }
+    
+    .menurg{
+        float: left;
+        overflow: hidden;
+        li{float: left;
+          height: 38px;
+            a>span{
+                display: inline-block;
+                width: 30px;
+                height: 25px;
+                margin-top:7px;
+                
+            }
+        }
+        li>a>.oversealife{
+            width: 100px;
+            height: 36px;
+            background: url(../images/overseaslogo.gif) no-repeat; 
+        }
+        
+        li:nth-of-type(2)>a>span{
+           background: url(../images/share02.png) no-repeat -240px -74px; 
+           margin-left: 18px;
+        }
+         li:nth-of-type(3)>a>span{
+           background: url(../images/share02.png) no-repeat -298px -74px; 
+           margin-left: 16px;
+        }
+         li:nth-of-type(4)>a>span{
+           background: url(../images/share02.png) no-repeat -357px -74px; 
+           margin-left: 16px;
+        }
+    }
+    
+}
+
+//banner =======================
+
+#banner{height: 520px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+      #list{ width: 11520px;
+             height: 520px;
+             position: absolute;
+             
+             li{float: left;
+                 width: 1440px;
+                 height: 520px;
+                 img{
+                    width: 1440px;
+                    height: 520px; 
+                 }
+         }
+      }
+    
+ 
+  #nums{
+        position: absolute; 
+        width: 168px;
+        height: 17px;
+        background: rgba(204,204,204,.3);
+        bottom: 10px;
+        left: 45%;
+        border-radius: 6px;
+      
+       li{
+           display: block;
+            float: left;
+            width: 12px;
+            height: 12px;
+            margin: 2px 6px;
+            cursor: pointer;
+            background: #ffffff;
+
+            border-radius: 50%;
+            z-index:5;
+         }
+        
+  }
+    #btns{width: 1000px;
+          margin: 0 auto;
+         .prev{position: absolute;
+            top:202px;
+         }
+         .next{position: absolute;
+            top:202px;
+            right:200px;
+         }
+    }
+    #nums li.bg{
+                background-color: #d00000;
+            }
+
+}
+
+//flagship 品牌旗舰===================================
+
+#flagship{
+    height: 687px;
+//  background: #FD7778;
+    .flagtop{padding: 40px 0 25px 0;}
+    .flaglist{
+        height: 330px;
+//      background: blue;
+        li{position: relative;
+            float: left;
+           height: 330px;
+           margin-right: 9.3px;
+           overflow: hidden;
+           .flaglistbox{
+                width: 174px;
+                height: 54px;
+                background: #fff;
+                position: absolute;
+                bottom: 0;
+                left: 30px;
+                margin-bottom: 2px;
+                .fspic{width: 60px;   
+                    margin: 10px 0 4px 59px;
+                }
+                .flbline{width: 20px;
+                    margin:0 0 35px 77px;
+                    border: 2px solid #000;
+                    display: block;
+                }
+                p{
+                    line-height: 24px;
+                    font-size: 14px;
+                    font-weight: 900;
+                    text-align: center;
+                }
+            }
+            .flaglistbox:hover{
+                height: 154px;
+            }
+        }
+    }
+    .hotstore{
+        height: 237px;
+//      background: blueviolet;
+        .hottop{
+            
+            height: 60px;
+//          background: pink;
+            .hottopbtn{
+                float: right;
+                margin:22px 16px 0 0;
+                .hot_left{
+                display: inline-block;
+                width: 8px;
+                height: 15px;
+                background: url(../images/share02.png) no-repeat -240px -385px; 
+                margin-right: 24px;
+                 }
+                .hot_next{
+                display: inline-block;
+                width: 8px;
+                height: 15px;
+                background: url(../images/share02.png) no-repeat -267px -385px;   
+                }
+            }
+        }
+     } 
+        //  hotmain .........................
+        .hotmain{
+            li{float: left;
+                width: 107px;
+                height: 55px;
+                border: 1px solid #dfdfdf;
+                margin: 0 6px 7px 0;
+                padding: 12px 29px;
+                position: relative;
+                img{
+                    width: 107px;
+                    height: 54px;
+                }
+                .hmtxt{
+                    position: absolute;
+                    left:29px;
+                    top: 14px;
+                    width: 107px;
+                    height: 42px;
+                    padding-top: 12px;
+                    background: #fff;
+                    text-align: center;
+                    opacity: 0;
+                    p{
+                        font-size: 18px;
+                       
+                    }
+                    .hmtxtline{width: 20px;
+                    margin-top: 8px;
+                    margin-left:40px;
+                    border: 2px solid #000;
+                    display: block;
+                    }
+                }
+                .topline{
+                    height: 1px;
+                    position: absolute;
+                    top: -1px;
+                    left: 0;
+                    background: #000;
+                }
+                .rightline{
+                    width: 1px;
+                    position: absolute;
+                    bottom: -1px;
+                    right: -1px;
+                    background: #000;
+                }
+                .bottomline{
+//                  width: 0;
+                    height: 1px;
+                    position: absolute;
+                    bottom: -1px;
+                    right: 0;
+                    background: #000;
+                }
+                .leftline{
+                    width: 1px;
+//                  height: 0;
+                    position: absolute;
+                    top: -1px;
+                    left: -1px;
+                    background: #000;
+                }
+            }
+        }
+        li:hover{
+            transform: .7s;
+            .hmtxt{opacity: 1;
+                p:hover{color: #b2826f;}
+            }
+        }
+      
+}
+
+//oversea 海外生活===================================
+
+#oversea{
+    height: 507px;
+//  background: palegreen;
+    .overlist{
+        li{position: relative;
+            width: 295px;
+            height: 393px;
+            margin-right: 8px;
+            float: left;
+            overflow: hidden;
+            img{width: 295px;
+            height: 393px;
+            display: block;
+            }
+            i{
+                position: absolute;
+                left: -402px;
+                width: 313px;
+                height: 393px;
+                top:0;
+                background-image: linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+                transform: skewx(-25deg);
+                transition: 0s;
+                cursor: pointer;
+            }
+        }
+        li:hover i{
+             left:387px;
+            transition:.7s;
+         }
+    }
+}
+
+//hotitems 商场同款===================================
+
+#hotitems{
+    height: 674px;
+    .hitemlink{
+        li{float: left;
+            width: 398px;
+            height: 30px;
+            background: #999;
+            color: #fff;
+            line-height: 30px;
+            text-align: center;
+            font-size: 14px;
+            margin-right: 6px;
+            margin-bottom: 10px;
+        }
+        li:hover{background: #000;}
+    }
+    .storesame{
+        height: 518px;
+        position: relative;
+        margin-top:40px;
+        .storebox{
+            position: absolute;
+            width: 4848px;
+            height: 518px;
+            left: 0;
+            li{
+                width: 1212px;
+                height: 518px;
+                .storeb_left{
+                   width:366px;
+                   height: 515px;
+                   float: left;
+                   }
+                .storeb_right{
+                    float: right;
+                    width: 843px;
+                    height: 518px;
+//                  background: green;
+                .sbr_top{
+                       display: flex;
+                       justify-content: space-around;
+                       text-align: center;
+                       overflow: hidden;
+                       font-size: 12px;
+                       line-height: 24px;
+                       .sbr_top1{
+                        width: 222px;
+                        height: 248px;
+                        border: 1px solid #ccc;
+                        
+                            img{
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                        .sbr_top2{
+                        width: 367px;
+                        height: 248px;
+                        border: 1px solid #ccc;
+                        overflow: hidden;
+                           img{
+                               width: 180px;
+                               height: 180px;
+                           }
+                        }
+                        .sbr_top3{
+                        width: 222px;
+                        height: 248px;
+                        border: 1px solid #ccc;
+                            img{
+                               width: 150px;
+                               height: 180px;
+                           }
+                        }
+                   }
+                    
+                   .sbr_bottom{
+                       display: flex;
+                       justify-content: space-around;
+                       text-align: center;
+                       overflow: hidden;
+                       font-size: 12px;
+                       line-height: 24px;
+                       margin-top:8px;
+                        img{
+                                width: 150px;
+                            }
+                       .sbr_bottom1{
+                        width: 271px;
+                        height: 255px;
+                        border: 1px solid #ccc;
+                        
+                           
+                        }
+                        .sbr_bottom2{
+                       width: 271px;
+                        height: 255px;
+                        border: 1px solid #ccc;
+                          
+                        }
+                        .sbr_bottom3{
+                       width: 271px;
+                        height: 255px;
+                        border: 1px solid #ccc;
+                            
+                        }
+                   } 
+                    
+                }
+            }
+        }
+    }
+}
+
+//shopping 购物中心===================================
+
+#shopping{
+    height: 2334px;
+    overflow: hidden;
+    .shopnav{
+        height: 50px;
+        li{height: 50px;
+        float: left;
+        background: #999;
+        width:234px;
+        margin-right: 8px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 14px;
+        color: #fff;
+        }
+       li:hover{background: #000;} 
+    }
+    
+    .jdxb{
+        height: 432px;
+   
+        .jdxbtit{
+            height: 60px;
+          
+            img{float: left;}
+            .jdxbtitr{
+                margin-top: 24px;
+                float: right;
+                .icon{display: inline-block;
+                width: 18px;
+                height: 16px;
+                background: url(../images/share02.png) no-repeat -471px -385px;}
+            }
+            
+        }
+        
+        .jdxbmain{
+            height: 370px;
+            div{float: left;
+                margin-right:5px;
+            }
+            div:nth-of-type(1){
+                width: 242px;
+                height: 370px;
+                border: 1px solid #cecece;
+                .good{
+                    padding-bottom: 16px;
+                    border-bottom:1px dashed #d4d4d4;
+                    overflow: hidden;
+                    li{float: left;
+                    text-align: left;
+                    line-height: 36px;
+                    font-size: 14px;
+                    width: 110px;
+                    margin-left:10px ;
+                        a{ color: #666;}
+                     }
+                }
+                
+            }
+            div:nth-of-type(2){
+                width: 390px;
+                height: 370px;
+          
+            }
+            div:nth-of-type(3){
+                width: 563px;
+                height: 370px;
+     
+                img{float: left;
+                   margin:2px;
+                   border: 1px solid #cecece;
+                }
+            }
+        }
+    }
+}
+
+//promotion 主题活动===================================
+
+#promotion{
+    height: 925px;
+    img{margin-right:5px;}
+    .promotion2{
+        margin-top:5px;}
+    
+    .promotion3{
+        margin-top: 10px;
+        .picleft{float: left;
+            width: 600px;
+            height: 139px;
+            margin-left: 5px;
+            li{float: left;
+              width: 192px;
+              height: 63px;
+              border:1px solid #CECECE;
+              margin: 3px;
+              margin-left: 0;
+            }
+            }
+        .picright{float: right;
+            width: 600px;
+            height: 139px;
+            margin-right: 5px;
+        }
+    }
+}   
