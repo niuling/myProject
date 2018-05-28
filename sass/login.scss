@@ -1,0 +1,145 @@
+#header,#nav,#loginnav,#menu,#flagship,#oversea,#hotitems,#shopping,#promotion,.main{width: 1212px;margin: 0 auto;}
+
+//nav logo============================
+
+#loginnav{height: 100px;
+     
+      .navlogo{float: left;
+           .logo{float: left;
+          height: 98px;
+         }  
+        span{float: left;
+            display: inline-block;
+            height: 46px;
+            border: 2px solid #cccccc;
+            margin: 27px 19px 0 19px;
+            } 
+         h3{float: left;
+            font-size: 22px;
+            color: #999999;
+            margin-top: 39px;
+         }
+      }
+     .tel{float: right;
+        margin-top:40px;
+        img{margin-right: 10px;
+        }
+        span{font-size: 12px;
+        color: #999999;
+        }
+     }
+}
+
+//main====================================
+
+#mainwrap{
+    width: 100%;
+    background: #262626;
+    .main{
+        width: 1212px;
+        height: 584px;
+        background:url(../images/login_background1.jpg) no-repeat;
+         
+         .login_box{
+            width: 400px;
+            height: 525px;
+            background: #fff;
+             float: right;
+             margin-top: 30px;
+             overflow: hidden;
+             position: relative;
+             .logintit{
+                 margin: 34px 0 0 68px;
+                  height: 23px;
+                 li{float: left;
+                    font-size: 20px;
+                    line-height: 20px;
+                    height: 20px;
+                    color: #999;
+                    }
+                  li:nth-of-type(2){
+                      padding: 0 50px;
+                    }
+                } 
+//           登录正文   
+              .logbody{
+                  width:400px;
+                  .logsm{
+                      display: none;
+                       .smpic{
+                      margin-top: 77px;
+                      img:nth-of-type(1){
+                        margin-left: 125px;
+                      }
+                      img:nth-of-type(2){
+                          margin-left: 20px;
+                        
+                      }
+                  }
+                  
+                  .logsmwz{font-size: 12px;
+                        color: #999999;
+                        margin-top: 37px;
+                        line-height: 24px;
+                       text-align: center;
+                        span{
+                            color: #ff9900;
+                        }
+                        a{color: #999999;}
+                        a:hover{
+                            color: #cc9147;
+                        }
+                    }
+                  
+                  }
+             
+              }  
+//           <!--用户登录--> 
+              .yhlogin{
+                  margin:32px 0 0 32px;
+                 
+                  #txt,#pwd,#btn{
+                      width: 336px;
+                      height: 50px;  
+                  }
+                  #txt{
+                      margin-bottom: 15px;
+                  }
+                  #btn{
+                      border: 0;
+                      background: #333333;
+                      color: #fff;
+                      font-size: 18px;
+                      margin:54px 0 20px 0;
+                  }
+                  .otrbtn{
+                      font-size: 12px;
+                      color: #999999;
+                      #cb{float: left;}
+                      p{float: left;}
+                      span{float: left;
+                      margin-left: 130px;
+                      padding: 0 5px;
+                        a:nth-of-type(1){color: #ff9900;}
+                        a:nth-of-type(2){color: #999999;}
+                      }
+                  }
+              }
+              
+//           <!--登录底部-->
+            .logbot{
+                position: absolute;
+                bottom: 30px;
+             
+                .otpic{
+                    margin: 10px 94px;
+                    li{float: left;
+                        padding:0 20px;
+                    }
+                }
+            }      
+         }
+
+    }
+   
+}

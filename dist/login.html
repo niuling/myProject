@@ -4,19 +4,88 @@
 		<meta charset="utf-8" />
 		<title>第五大道奢侈品网</title>
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
 		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		
 	</head>
 	<body>
-		<!--nav logo块-->
-		<div id="nav">
-			<a href="index.html"><img src="../images/logo.jpg"></a>
+<!------------nav logo块------------------>
+		<div id="loginnav">
+			<div class="navlogo">
+				<a href="index.html" ><img src="../images/logo.jpg" class="logo"></a>
+			<span></span>
+			<h3>欢迎登录</h3></div>
+			
 			<div class="tel">
-				<span></span>
-				<p>客服热线：4008-6767-38</p>
+				<img src="images/phone-logo.png"/>
+				<span>客服热线：4008-6767-38</span>
 			</div>
 		</div>
-		<!--footer-->
+		
+<!--main------------------------------->
+<div id="mainwrap">
+	<div class="main">
+		<div class="login_box">
+			<ul class="logintit">
+				<li class="smdl">扫码登录</li>
+				<li>|</li>
+				<li class="yhdl">账户登录</li>
+			</ul>
+			<!--登录正文-->
+			<div class="logbody">
+				<!--微信扫码-->
+				<div class="logsm">
+					<div class="smpic">
+						<img src="images/gen2qrcode.png" alt="二维码" />
+						<!--<img src="images/exqcode.png" />-->
+					</div>
+					<div class="logsmwz">
+						<p>打开<span>第五大道APP</span>扫一扫登录</p>
+						<a href="">立即注册有惊喜 ></a>
+					</div>
+				</div>
+				<!--用户登录-->
+				<form action="index.html" method="post" class="yhlogin">
+					<input type="text" id="txt" placeholder="邮箱/手机/账号"/>
+					<br>
+					<input type="password" name="password" id="pwd"  placeholder="密码"/>
+					<br>
+					<input type="submit" value="立即登录" id="btn"/>
+					<div class="otrbtn">
+						<input type="checkbox" name="" id="cb" value="" />
+						<p>自动登录</p>
+						<span>
+							<a href="register.html">立即注册</a>|
+							<a href="#">忘记密码？</a>
+						</span>
+					</div>
+				</form>
+			</div>
+			<!--登录底部-->
+			<div class="logbot">
+				<img src="images/other-type.jpg"/>
+				<ul class="otpic">
+					<li>
+						<img src="images/is_wx.png" alt="" class=""/>	
+					</li>
+					
+					<li>
+						<img src="images/is_qq.png" alt="" />
+						
+					</li>
+					
+					<li>
+						<img src="images/is_wb.png" alt="" />
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		
+<!-------------footer------------------------>
 		<div id="footer">
 			<ul class="foot-top">
 				<li>
@@ -139,4 +208,5 @@
 			</a>
 		</div>
 	</body>
+	<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 </html>

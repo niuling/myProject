@@ -308,79 +308,93 @@
     height: 237px; }
     #flagship .hotstore .hottop {
       height: 60px; }
-      #flagship .hotstore .hottop .hottopbtn {
+      #flagship .hotstore .hottop #sliderBtns {
         float: right;
         margin: 22px 16px 0 0; }
-        #flagship .hotstore .hottop .hottopbtn .hot_left {
+        #flagship .hotstore .hottop #sliderBtns .hot_left {
           display: inline-block;
           width: 8px;
           height: 15px;
           background: url(../images/share02.png) no-repeat -240px -385px;
           margin-right: 24px; }
-        #flagship .hotstore .hottop .hottopbtn .hot_next {
+        #flagship .hotstore .hottop #sliderBtns .hot_next {
           display: inline-block;
           width: 8px;
           height: 15px;
           background: url(../images/share02.png) no-repeat -267px -385px; }
-  #flagship .hotmain li {
-    float: left;
-    width: 107px;
-    height: 55px;
-    border: 1px solid #dfdfdf;
-    margin: 0 6px 7px 0;
-    padding: 12px 29px;
+  #flagship #sliderBox {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
     position: relative; }
-    #flagship .hotmain li img {
-      width: 107px;
-      height: 54px; }
-    #flagship .hotmain li .hmtxt {
-      position: absolute;
-      left: 29px;
-      top: 14px;
-      width: 107px;
-      height: 42px;
-      padding-top: 12px;
-      background: #fff;
-      text-align: center;
-      opacity: 0; }
-      #flagship .hotmain li .hmtxt p {
-        font-size: 18px; }
-      #flagship .hotmain li .hmtxt .hmtxtline {
-        width: 20px;
-        margin-top: 8px;
-        margin-left: 40px;
-        border: 2px solid #000;
-        display: block; }
-    #flagship .hotmain li .topline {
-      height: 1px;
-      position: absolute;
-      top: -1px;
-      left: 0;
-      background: #000; }
-    #flagship .hotmain li .rightline {
-      width: 1px;
-      position: absolute;
-      bottom: -1px;
-      right: -1px;
-      background: #000; }
-    #flagship .hotmain li .bottomline {
-      height: 1px;
-      position: absolute;
-      bottom: -1px;
-      right: 0;
-      background: #000; }
-    #flagship .hotmain li .leftline {
-      width: 1px;
-      position: absolute;
-      top: -1px;
-      left: -1px;
-      background: #000; }
-  #flagship li:hover {
-    transform: .7s; }
-    #flagship li:hover .hmtxt {
-      opacity: 1; }
-      #flagship li:hover .hmtxt p:hover {
-        color: #b2826f; }
+    #flagship #sliderBox #sliderList {
+      width: 4848px;
+      position: absolute; }
+      #flagship #sliderBox #sliderList li {
+        float: left; }
+        #flagship #sliderBox #sliderList li .hotmain {
+          width: 1212px; }
+          #flagship #sliderBox #sliderList li .hotmain li {
+            float: left;
+            width: 107px;
+            height: 55px;
+            border: 1px solid #dfdfdf;
+            margin: 0 6px 7px 0;
+            padding: 12px 29px;
+            position: relative; }
+            #flagship #sliderBox #sliderList li .hotmain li img {
+              width: 107px;
+              height: 54px; }
+            #flagship #sliderBox #sliderList li .hotmain li .hmtxt {
+              position: absolute;
+              left: 29px;
+              top: 14px;
+              width: 107px;
+              height: 42px;
+              padding-top: 12px;
+              background: #fff;
+              text-align: center;
+              opacity: 0; }
+              #flagship #sliderBox #sliderList li .hotmain li .hmtxt p {
+                font-size: 18px; }
+              #flagship #sliderBox #sliderList li .hotmain li .hmtxt .hmtxtline {
+                width: 20px;
+                margin-top: 8px;
+                margin-left: 40px;
+                border: 2px solid #000;
+                display: block; }
+            #flagship #sliderBox #sliderList li .hotmain li .top_style {
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              width: 0px;
+              height: 1px;
+              background: #000; }
+            #flagship #sliderBox #sliderList li .hotmain li .left_style {
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              width: 1px;
+              height: 0px;
+              background: #000; }
+            #flagship #sliderBox #sliderList li .hotmain li .bootm_style {
+              position: absolute;
+              bottom: 0px;
+              left: 0px;
+              width: 0px;
+              height: 1px;
+              background: #000; }
+            #flagship #sliderBox #sliderList li .hotmain li .right_style {
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              width: 1px;
+              height: 0px;
+              background: #000; }
+        #flagship #sliderBox #sliderList li li:hover .hmtxt {
+          opacity: 1; }
+          #flagship #sliderBox #sliderList li li:hover .hmtxt p:hover {
+            color: #b2826f; }
 
 #oversea {
   height: 507px; }
@@ -427,15 +441,17 @@
   #hotitems .storesame {
     height: 518px;
     position: relative;
-    margin-top: 40px; }
+    margin-top: 40px;
+    overflow: hidden; }
     #hotitems .storesame .storebox {
       position: absolute;
-      width: 4848px;
+      width: 3636px;
       height: 518px;
       left: 0; }
       #hotitems .storesame .storebox li {
         width: 1212px;
-        height: 518px; }
+        height: 518px;
+        float: left; }
         #hotitems .storesame .storebox li .storeb_left {
           width: 366px;
           height: 515px;
@@ -495,6 +511,19 @@
               width: 271px;
               height: 255px;
               border: 1px solid #ccc; }
+        #hotitems .storesame .storebox li .hr:hover .wy {
+          transform: translateX(-20px); }
+        #hotitems .storesame .storebox li .hr:hover .ydpic {
+          transform: translateX(20px); }
+      #hotitems .storesame .storebox li:nth-of-type(3) div {
+        float: left; }
+      #hotitems .storesame .storebox li:nth-of-type(3) .storeb_right1, #hotitems .storesame .storebox li:nth-of-type(3) .storeb_right2 {
+        width: 398px;
+        height: 518px;
+        margin-left: 10px; }
+        #hotitems .storesame .storebox li:nth-of-type(3) .storeb_right1 img, #hotitems .storesame .storebox li:nth-of-type(3) .storeb_right2 img {
+          width: 398px;
+          height: 255px; }
 
 #shopping {
   height: 2334px;
@@ -579,9 +608,44 @@
         height: 63px;
         border: 1px solid #CECECE;
         margin: 3px;
-        margin-left: 0; }
+        margin-left: 0;
+        position: relative; }
+        #promotion .promotion3 .picleft li img {
+          width: 192px;
+          height: 63px; }
+      #promotion .promotion3 .picleft .top_style1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 1px;
+        background: #000; }
+      #promotion .promotion3 .picleft .left_style1 {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 1px;
+        height: 0px;
+        background: #000; }
+      #promotion .promotion3 .picleft .bootm_style1 {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 0px;
+        height: 1px;
+        background: #000; }
+      #promotion .promotion3 .picleft .right_style1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 1px;
+        height: 0px;
+        background: #000; }
     #promotion .promotion3 .picright {
       float: right;
       width: 600px;
       height: 139px;
       margin-right: 5px; }
+      #promotion .promotion3 .picright img {
+        width: 600px;
+        height: 139px; }

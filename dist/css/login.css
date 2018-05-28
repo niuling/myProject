@@ -1,0 +1,115 @@
+#header, #nav, #loginnav, #menu, #flagship, #oversea, #hotitems, #shopping, #promotion, .main {
+  width: 1212px;
+  margin: 0 auto; }
+
+#loginnav {
+  height: 100px; }
+  #loginnav .navlogo {
+    float: left; }
+    #loginnav .navlogo .logo {
+      float: left;
+      height: 98px; }
+    #loginnav .navlogo span {
+      float: left;
+      display: inline-block;
+      height: 46px;
+      border: 2px solid #cccccc;
+      margin: 27px 19px 0 19px; }
+    #loginnav .navlogo h3 {
+      float: left;
+      font-size: 22px;
+      color: #999999;
+      margin-top: 39px; }
+  #loginnav .tel {
+    float: right;
+    margin-top: 40px; }
+    #loginnav .tel img {
+      margin-right: 10px; }
+    #loginnav .tel span {
+      font-size: 12px;
+      color: #999999; }
+
+#mainwrap {
+  width: 100%;
+  background: #262626; }
+  #mainwrap .main {
+    width: 1212px;
+    height: 584px;
+    background: url(../images/login_background1.jpg) no-repeat; }
+    #mainwrap .main .login_box {
+      width: 400px;
+      height: 525px;
+      background: #fff;
+      float: right;
+      margin-top: 30px;
+      overflow: hidden;
+      position: relative; }
+      #mainwrap .main .login_box .logintit {
+        margin: 34px 0 0 68px;
+        height: 23px; }
+        #mainwrap .main .login_box .logintit li {
+          float: left;
+          font-size: 20px;
+          line-height: 20px;
+          height: 20px;
+          color: #999; }
+        #mainwrap .main .login_box .logintit li:nth-of-type(2) {
+          padding: 0 50px; }
+      #mainwrap .main .login_box .logbody {
+        width: 400px; }
+        #mainwrap .main .login_box .logbody .logsm {
+          display: none; }
+          #mainwrap .main .login_box .logbody .logsm .smpic {
+            margin-top: 77px; }
+            #mainwrap .main .login_box .logbody .logsm .smpic img:nth-of-type(1) {
+              margin-left: 125px; }
+            #mainwrap .main .login_box .logbody .logsm .smpic img:nth-of-type(2) {
+              margin-left: 20px; }
+          #mainwrap .main .login_box .logbody .logsm .logsmwz {
+            font-size: 12px;
+            color: #999999;
+            margin-top: 37px;
+            line-height: 24px;
+            text-align: center; }
+            #mainwrap .main .login_box .logbody .logsm .logsmwz span {
+              color: #ff9900; }
+            #mainwrap .main .login_box .logbody .logsm .logsmwz a {
+              color: #999999; }
+            #mainwrap .main .login_box .logbody .logsm .logsmwz a:hover {
+              color: #cc9147; }
+      #mainwrap .main .login_box .yhlogin {
+        margin: 32px 0 0 32px; }
+        #mainwrap .main .login_box .yhlogin #txt, #mainwrap .main .login_box .yhlogin #pwd, #mainwrap .main .login_box .yhlogin #btn {
+          width: 336px;
+          height: 50px; }
+        #mainwrap .main .login_box .yhlogin #txt {
+          margin-bottom: 15px; }
+        #mainwrap .main .login_box .yhlogin #btn {
+          border: 0;
+          background: #333333;
+          color: #fff;
+          font-size: 18px;
+          margin: 54px 0 20px 0; }
+        #mainwrap .main .login_box .yhlogin .otrbtn {
+          font-size: 12px;
+          color: #999999; }
+          #mainwrap .main .login_box .yhlogin .otrbtn #cb {
+            float: left; }
+          #mainwrap .main .login_box .yhlogin .otrbtn p {
+            float: left; }
+          #mainwrap .main .login_box .yhlogin .otrbtn span {
+            float: left;
+            margin-left: 130px;
+            padding: 0 5px; }
+            #mainwrap .main .login_box .yhlogin .otrbtn span a:nth-of-type(1) {
+              color: #ff9900; }
+            #mainwrap .main .login_box .yhlogin .otrbtn span a:nth-of-type(2) {
+              color: #999999; }
+      #mainwrap .main .login_box .logbot {
+        position: absolute;
+        bottom: 30px; }
+        #mainwrap .main .login_box .logbot .otpic {
+          margin: 10px 94px; }
+          #mainwrap .main .login_box .logbot .otpic li {
+            float: left;
+            padding: 0 20px; }

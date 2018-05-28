@@ -1,0 +1,47 @@
+#header, #nav, #loginnav, #menu, #flagship, #oversea, #hotitems, #shopping, #promotion, .main {
+  width: 1212px;
+  margin: 0 auto; }
+
+#loginnav {
+  height: 100px; }
+  #loginnav .navlogo {
+    float: left; }
+    #loginnav .navlogo .logo {
+      float: left;
+      height: 98px; }
+    #loginnav .navlogo span {
+      float: left;
+      display: inline-block;
+      height: 46px;
+      border: 2px solid #cccccc;
+      margin: 27px 19px 0 19px; }
+    #loginnav .navlogo h3 {
+      float: left;
+      font-size: 22px;
+      color: #999999;
+      margin-top: 39px; }
+  #loginnav .tel {
+    float: right;
+    margin-top: 40px; }
+    #loginnav .tel img {
+      margin-right: 10px; }
+    #loginnav .tel span {
+      font-size: 12px;
+      color: #999999; }
+
+#mainwrap {
+  width: 100%;
+  height: 584px;
+  background: #262626; }
+  #mainwrap .main {
+    width: 1212px;
+    height: 584px;
+    background: url(../images/login_background1.jpg) no-repeat; }
+    #mainwrap .main .login_box {
+      width: 400px;
+      height: 525px;
+      background: #fff;
+      float: right;
+      margin-top: 30px;
+      overflow: hidden;
+      position: relative; }
