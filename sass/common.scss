@@ -13,7 +13,7 @@ hover{cursor:pointer;}
 //nav logo============================
 #nav{height: 110px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     .navyj{width: 140px;
        height: 80px;
        margin-top:10px;
@@ -104,6 +104,11 @@ hover{cursor:pointer;}
             }
         }
         
+    }
+    //登录页面
+    .tel{
+        font-size: 12px;
+        color: #666666;
     }
 }
 

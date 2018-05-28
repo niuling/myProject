@@ -36,7 +36,7 @@ hover {
 #nav {
   height: 110px;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
   #nav .navyj {
     width: 140px;
     height: 80px;
@@ -119,6 +119,9 @@ hover {
         background: #fff; }
         #nav .searchrg .cont:hover .contxx {
           display: block; }
+  #nav .tel {
+    font-size: 12px;
+    color: #666666; }
 
 #footer {
   height: 613px;
